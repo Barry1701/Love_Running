@@ -152,7 +152,7 @@ hr {
     margin-bottom: 20px;
     height: 90vw;
     width: 90vw;
-    /* Makes the square image into circle */
+/* Makes the square image into circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -166,7 +166,7 @@ hr {
 /* Meetup times section */
 #times {
     background:url("../images/dublin-city.webp") no-repeat center/cover;
-    /* Handles responsivly without the need for a media query */
+/* Handles responsivly without the need for a media query */
     display: flex;
     flex-wrap: wrap;
 }
@@ -175,7 +175,7 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
-    /* This will not wrap on screen of less then 400px wide.
+/* This will not wrap on screen of less then 400px wide.
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
@@ -183,11 +183,18 @@ hr {
     border: 2px solid white;
 }
 #times h3 {
-    /* Override the heading color set in general styles */
+/* Override the heading color set in general styles */
     color: #fafafa;
 }
     
-
+/* Gallery page */
+#photos img {
+width: 100%;
+line-height: 1em;
+}
+#photos {
+    line-height: 0;
+}
     
 /* Footer */
 #social-networks {
